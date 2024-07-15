@@ -1,5 +1,10 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('forest.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño completo del fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza */
+    background-position: center; /* Centra la imagen en el fondo */
     background-color: #f4f4f9;
     display: flex;
     justify-content: center;
